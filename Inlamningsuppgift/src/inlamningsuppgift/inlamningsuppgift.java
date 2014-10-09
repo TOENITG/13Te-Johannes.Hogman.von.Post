@@ -2,7 +2,6 @@ package inlamningsuppgift;
 
 import java.util.Scanner;
  
-
 public class inlamningsuppgift {
 
    
@@ -17,7 +16,6 @@ public class inlamningsuppgift {
         String Pnummer;
         System.out.println ("Vad är ditt personummer?");
         Pnummer = user_input.next();
-        Pnummer.substring(2, 5);
         
         String addres;
         System.out.println ("Vad är din addres");
