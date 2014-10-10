@@ -17,6 +17,8 @@ public class inlamningsuppgift {
         System.out.println ("Vad är ditt personummer?");
         Pnummer = user_input.next();
         
+        // Här så har jag deffinerat en 
+        
         String addres;
         System.out.println ("Vad är din addres");
         addres = user_input.next();
