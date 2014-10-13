@@ -36,7 +36,7 @@ import java.util.Scanner;
         
         System.out.println
         ("Hej " + First_name + " " + Family_name + " " + "du är " + Age + 
-         " År gammal" + "och bor i " + Location);
+         " År gammal" + " och bor i " + Location);
         
         String Phone_number;
         System.out.println ("Vad är ditt telefonnummer?");
@@ -47,7 +47,8 @@ import java.util.Scanner;
          " År gammal" + ", bor i " + Location + " och ditt telefonnummer är " 
          + Phone_number);
         
-        
+        /* Jag har skrivit en sträng för varje fråga, jag har även kodat så att 
+        det tidigare svaret finns med när nästa fråga kommer */
     
     
     
