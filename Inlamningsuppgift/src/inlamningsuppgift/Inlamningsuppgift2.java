@@ -8,28 +8,48 @@ import java.util.Scanner;
 
         Scanner user_input = new Scanner (System.in);
         
-        String A;
-        System.out.println ("Vad heter du?");
-        A = user_input.next();
+        String First_name;
+        System.out.println ("Vad heter du i förnamn?");
+        First_name = user_input.next();
         
-        String B;
-        System.out.println ("Vad heter du?");
-        B = user_input.next();
+        System.out.println
+        ("Hej " + First_name);
         
-        String C;
-        System.out.println ("Vad heter du?");
-        C = user_input.next();
+        String Family_name;
+        System.out.println ("Vad heter du efternamn?");
+        Family_name = user_input.next();
         
-        String D;
-        System.out.println ("Vad heter du?");
-        D = user_input.next();
+        System.out.println
+        ("Hej " + First_name + " " + Family_name);
         
-        String E;
-        System.out.println ("Vad heter du?");
-        E = user_input.next();
+        String Age;
+        System.out.println ("Hur gammal är du?");
+        Age = user_input.next();
+        
+        System.out.println
+        ("Hej " + First_name + " " + Family_name + " " + "du är " + Age + 
+         " År gammal");
+        
+        String Location;
+        System.out.println ("Var bor du?");
+        Location = user_input.next();
+        
+        System.out.println
+        ("Hej " + First_name + " " + Family_name + " " + "du är " + Age + 
+         " År gammal" + "och bor i " + Location);
+        
+        String Phone_number;
+        System.out.println ("Vad är ditt telefonnummer?");
+        Phone_number = user_input.next();
+        
+        System.out.println
+        ("Hej " + First_name + " " + Family_name + " " + "du är " + Age + 
+         " År gammal" + ", bor i " + Location + " och ditt telefonnummer är " 
+         + Phone_number);
+        
         
     
-    System.out.println(A + B + C + D + E );
+    
     
     
     
