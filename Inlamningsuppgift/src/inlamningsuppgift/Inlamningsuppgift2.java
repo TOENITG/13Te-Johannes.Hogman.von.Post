@@ -50,12 +50,13 @@ import java.util.Scanner;
         /* Jag har skrivit en sträng för varje fråga, jag har även kodat så att 
         det tidigare svaret finns med när nästa fråga kommer */
     
-    
-    
-    
-    
-    
-    
-    
         }
     }
+    
+/*
+
+Tack!
+
+Kul variant med frågor, så att du får en mening av det.
+
+*/

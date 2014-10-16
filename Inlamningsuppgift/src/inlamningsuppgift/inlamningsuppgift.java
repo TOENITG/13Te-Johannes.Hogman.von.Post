@@ -35,3 +35,9 @@ public class inlamningsuppgift {
     }
     
 }
+
+/*
+Tack!
+Du har löst uppgiften elegant.
+
+*/
