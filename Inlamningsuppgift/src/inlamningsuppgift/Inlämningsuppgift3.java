@@ -1,38 +1,39 @@
 package inlamningsuppgift;
 
-import java.util.Scanner;
+    import java.util.Scanner;
 
-public class Inlämningsuppgift3 {
+        public class Inlämningsuppgift3 {
     
-    static double FelHantering()
-    {
-    Scanner user_input = new Scanner (System.in);
-    /* Här har jag skapa en metod med namnet FelHantering*/
-    boolean correct;
-    double tal=0;
-    /* Här har jag gett variabeln "tal" ett basvärde för att Java ska kunna använda
-       variablen när Java kommer fram till "return"*/
-     do
-        {
-            try
+            static double FelHantering()
             {
-               tal = Double.parseDouble(user_input.next( ));
-               correct=true;         
-            }
+                Scanner user_input = new Scanner (System.in);
+                /* Här har jag skapa en metod med namnet FelHantering*/
+                boolean correct;
+                double tal=0;
+                /* Här har jag gett variabeln "tal" ett basvärde för att Java ska kunna använda
+                variablen när Java kommer fram till "return"*/
+        do
+            {
+                try
+                {
+                    tal = Double.parseDouble(user_input.next( ));
+                    correct=true;         
+                }
             
-            catch(NumberFormatException e)
-            {
+               catch(NumberFormatException e)
+               {
                System.out.println("Du har inte skrivit ett tal, försök igen!");
                correct=false;
-            }
-            /* Här har jag använt en "try and catch" metod där Java testar något
-               och ifall det kommer ett visst svar tillbaka så kommer Java att 
-               skriva ut en mening och börja om igen tills Java slutar få det 
+               }
+               /* Här har jag använt en "try and catch" metod där Java testar 
+               något och ifall det kommer ett visst svar tillbaka så kommer Java 
+               att skriva ut en mening och börja om igen tills Java slutar få det 
                svar som Java letar efter.*/
-        }
+               }
+        
         while(!correct);
-     return tal;
-    }
+        return tal;
+        }
     
     public static void main(String[] args) {
         
