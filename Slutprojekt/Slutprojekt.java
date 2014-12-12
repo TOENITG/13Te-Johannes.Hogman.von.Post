@@ -121,7 +121,7 @@ public class Slutprojekt {
             System.out.println("You now have " + pengar + " do you want to play again?");
 
             /*Här frågar programmet användaren ifall den vill fortsätta spela.
-              Om användaren skriver in "no" kommer datorn att skriva ut ett hejdå 
+              Om användaren skriver in "No" kommer datorn att skriva ut ett hejdå 
               meddelande och bryta while loopen.*/
             String Sluta = user_input.nextLine();
 
